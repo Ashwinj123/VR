@@ -1,0 +1,71 @@
+.app-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .file-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .preview-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .category-section {
+    margin-bottom: 20px;
+  }
+  
+  .category-options {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .category-options label {
+    margin-right: 10px;
+  }
+  
+  .try-on-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .try-on-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .result-section {
+    margin-top: 20px;
+  }
+  
+  .result-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
